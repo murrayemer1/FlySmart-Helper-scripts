@@ -1,0 +1,1149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report>
+	<info weightVariantName="standard" identname="TOPA" databaseName="AB322A06" datetime="210521-182419" tailNumber="EI-HEB" weightVariantRank="1.000000" flightNumber="GHJ" type="A330"/>
+	<units>
+		<unit dimensionCode="ALTITUDE" unitCode="feet"/>
+		<unit dimensionCode="SPEED" unitCode="knot"/>
+		<unit dimensionCode="PRESSURE" unitCode="hp"/>
+		<unit dimensionCode="TEMPERATURE" unitCode="celsius"/>
+		<unit dimensionCode="LENGTH" unitCode="meter"/>
+		<unit dimensionCode="MASS" unitCode="kg"/>
+	</units>
+	<input oat="[15.000000; celsius]" qnh="[1013.000000; hp]" tow="[200000.000000; kg]">
+		<airport airportIATA="CAI" airportICAO="HECA">
+			<runway qfu="05R" tora="[4000.000000; meter]" entryAngle="1" asda="[4000.000000; meter]" width="[60.000000; meter]" elevation="[448.000000; feet]" surface="smooth" rwyShoulders="false" clearway="[0.000000; meter]" stopway="[0.000000; meter]" toda="[4000.000000; meter]" slope="0.140000" status="UNMODIFIED"/>
+			<obstacles/>
+		</airport>
+		<runwayState label="Dry" scap="0" brakingCoefficient="NaN"/>
+		<wind projection="0" cross="0" speed="0" direction="0"/>
+		<airConditioning name="On" scap="1"/>
+		<antiIce name="Off" scap="0"/>
+		<cg name="n/a" scap="NaN"/>
+		<engineOption name="TOGA" scap="0"/>
+		<inopOptionList>
+			<inopOption code="AIDIFA" name="Normal" inopName="Eng. A-Ice valve position" scap="0"/>
+			<inopOption code="SPOILE" name="Normal" inopName="Ground spoilers" scap="0"/>
+			<inopOption code="ENREVC" name="All reversers operating" inopName="Thrust reversers status" scap="1"/>
+			<inopOption code="ENGIFA" name="Normal" inopName="Ground idle" scap="0"/>
+			<inopOption code="GEEXTE" name="Normal" inopName="Landing gears position" scap="0"/>
+			<inopOption code="GEBKCO" name="Normal" inopName="Brakes configuration" scap="0"/>
+			<inopOption code="SCTACH" name="Normal" inopName="Wheel tachometers" scap="0"/>
+			<inopOption code="N1MODE" name="Normal" inopName="Power management system" scap="0"/>
+			<inopOption code="ETR" name="No Restriction" inopName="Engine Thrust Restriction" scap="0"/>
+		</inopOptionList>
+		<cdl nbNegligibleItems="0"/>
+		<configuration name="CONF 2" scap="0"/>
+	</input>
+	<results nbIteration="0" flexPad="0" flexStep="1">
+		<runwayResult configuration="CONF 2" perfLimitWeight="242171" isCKAFMEnabled="false" isModifiedRwy="false" qfu="05R">
+			<runwayComment>TAKEOFF BASED ON CLIMBING ON EXTENDED RUNWAY CENTERLINE</runwayComment>
+			<temperatureResult usable="true" temperature="15" limitationCode="TOW - TOW" V1Mean="141" VR="152" eoaccAlt="1948" V2="157" tow="200000" isValid="true" flexDerateToga="1" stopMarginMean="1664" V1TYPE="Mean"/>
+			<thrustReversers>All reversers inoperative</thrustReversers>
+			<greenDotSpeed>227</greenDotSpeed>
+		</runwayResult>
+	</results>
+	<computeFiles>
+		<iteration iterationNumber="0">
+			<LIST_T>01
+1
+FLEX MODE = OPT
+FLEX PAD = 0.0
+NBTEMP1 1
+15.0
+NBTEMP2 0
+Common POPT
+POPT   1 = 4.0
+POPT   2 = 0.0
+POPT   3 = 9.0E+20
+POPT   4 = 9.0E+20
+POPT   5 = 9.0
+POPT   6 = 9.0E+20
+POPT   7 = 0.0
+POPT   8 = 9.0E+20
+POPT   9 = 35.0
+POPT  10 = 35.0
+POPT  11 = 0.0
+POPT  12 = 21.2
+POPT  13 = 46.5
+POPT  14 = 0.0
+POPT  15 = 9.0E+20
+POPT  16 = 9.0E+20
+POPT  17 = 9.0E+20
+POPT  18 = 0.0
+POPT  19 = 400.0
+POPT  20 = 9.0E+20
+POPT  21 = 9.0E+20
+POPT  22 = 9.0E+20
+POPT  23 = 3.0
+POPT  24 = 200000.0
+POPT  25 = 0.0
+POPT  26 = 9.0E+20
+POPT  27 = 0.0
+POPT  28 = 9.0E+20
+POPT  29 = 9.0E+20
+POPT  30 = 0.0
+POPT  31 = 1.0
+POPT  32 = 9.0E+20
+POPT  33 = 9.0E+20
+POPT  34 = 9.0E+20
+POPT  35 = 9.0E+20
+POPT  36 = 9.0E+20
+POPT  37 = 9.0E+20
+POPT  38 = 9.0E+20
+POPT  39 = 9.0E+20
+POPT  40 = 9.0E+20
+POPT  41 = 9.0E+20
+POPT  42 = 9.0E+20
+POPT  43 = 9.0E+20
+POPT  44 = 9.0E+20
+POPT  45 = 9.0E+20
+POPT  46 = 9.0E+20
+POPT  47 = 9.0E+20
+POPT  48 = 0.0
+POPT  49 = 0.0
+POPT  50 = 0.0
+POPT  51 = 0.0
+POPT  52 = 9.0E+20
+POPT  53 = 9.0E+20
+POPT  54 = 9.0E+20
+POPT  55 = 9.0E+20
+POPT  56 = 9.0E+20
+POPT  57 = 0.0
+POPT  61 = 0.0
+POPT  81 = 0.0
+Common AECG
+AECG   1  = 0.0
+AECG   2  = 1.0
+Common CONF
+CONF   1 = 4.0
+CONF   2 = 9.0E+20
+CONF   3 = 9.0E+20
+CONF   4 = 1.0
+CONF   5 = 0.0
+CONF   6 = 0.0
+CONF   7 = 0.0
+CONF   8 = 0.0
+CONF   9 = 0.0
+CONF  10 = 0.0
+CONF  11 = 9.0E+20
+CONF  12 = 0.0
+CONF  13 = 0.0
+CONF  14 = 9.0E+20
+CONF  15 = 0.0
+CONF  16 = 9.0E+20
+CONF  17 = 0.0
+CONF  18 = 9.0E+20
+CONF  19 = 9.0E+20
+CONF  20 = 0.0
+CONF  21 = 9.0E+20
+CONF  22 = 9.0E+20
+CONF  23 = 9.0E+20
+CONF  24 = 0.0
+CONF  25 = 9.0E+20
+CONF  26 = 9.0E+20
+CONF  27 = 0.0
+CONF  28 = 9.0E+20
+CONF  29 = 9.0E+20
+CONF  30 = 9.0E+20
+CONF  31 = 9.0E+20
+CONF  32 = 9.0E+20
+CONF  33 = 9.0E+20
+CONF  34 = 0.0
+CONF  35 = 9.0E+20
+CONF  36 = 9.0E+20
+CONF  37 = 9.0E+20
+CONF  38 = 9.0E+20
+CONF  39 = 9.0E+20
+CONF  40 = 9.0E+20
+CONF  41 = 9.0E+20
+CONF  42 = 9.0E+20
+CONF  43 = 9.0E+20
+CONF  44 = 0.0
+CONF  45 = 0.0
+CONF  46 = 9.0E+20
+CONF  47 = 9.0E+20
+CONF  48 = 0.0
+CONF  49 = 9.0E+20
+CONF  50 = 9.0E+20
+CONF  51 = 9.0E+20
+CONF  52 = 9.0E+20
+CONF  53 = 9.0E+20
+CONF  54 = 9.0E+20
+CONF  55 = 9.0E+20
+CONF  56 = 9.0E+20
+CONF  58 = 0.0
+CONF  59 = 0.0
+CONF  60 = 0.0
+Common XMET
+XMET   1 = 0.0
+XMET   2 = 0.0
+XMET   3 = 0.0
+XMET   4 = 1.0
+XMET   5 = 1013.0
+XMET   6 = 9.0E+20
+XMET   7 = 9.0E+20
+XMET   8 = 9.0E+20
+XMET   9 = 9.0E+20
+XMET  10 = 9.0E+20
+XMET  11 = 9.0E+20
+XMET  12 = 9.0E+20
+XMET  13 = 9.0E+20
+XMET  14 = 9.0E+20
+XMET  15 = 9.0E+20
+XMET  16 = 9.0E+20
+XMET  17 = 9.0E+20
+XMET  18 = 9.0E+20
+XMET  19 = 9.0E+20
+XMET  20 = 9.0E+20
+XMET  21 = 9.0E+20
+XMET  22 = 9.0E+20
+XMET  23 = 9.0E+20
+XMET  24 = 9.0E+20
+XMET  25 = 9.0E+20
+XMET  26 = 9.0E+20
+XMET  27 = 9.0E+20
+XMET  28 = 9.0E+20
+XMET  29 = 9.0E+20
+XMET  30 = 9.0E+20
+XMET  31 = 9.0E+20
+XMET  32 = 9.0E+20
+XMET  33 = 9.0E+20
+XMET  34 = 9.0E+20
+XMET  35 = 9.0E+20
+Common RWYD
+RWYD   1 = 448.0
+RWYD   2 = 0.0
+RWYD   3 = 4000.0
+RWYD   4 = 4000.0
+RWYD   5 = 4000.0
+RWYD   6 = 0.14
+RWYD   7 = 9.0E+20
+RWYD   8 = 0.0
+RWYD   9 = 1.0
+RWYD  10 = 0.0
+RWYD  11 = 60.0
+RWYD  12 = 9.0E+20
+RWYD  13 = 9.0E+20
+RWYD  14 = 9.0E+20
+RWYD  15 = 9.0E+20
+RWYD  16 = 9.0E+20
+RWYD  17 = 9.0E+20
+RWYD  18 = 9.0E+20
+RWYD  19 = 9.0E+20
+RWYD  20 = 9.0E+20
+RWYD  21 = 9.0E+20
+RWYD  22 = 9.0E+20
+RWYD  23 = 9.0E+20
+RWYD  24 = 9.0E+20
+RWYD  25 = 9.0E+20
+RWYD  26 = 9.0E+20
+RWYD  27 = 9.0E+20
+RWYD  28 = 9.0E+20
+RWYD  29 = 9.0E+20
+RWYD  30 = 9.0E+20
+RWYD  31 = 9.0E+20
+RWYD  32 = 9.0E+20
+RWYD  33 = 9.0E+20
+RWYD  34 = 9.0E+20
+RWYD  35 = 9.0E+20
+RWYD  36 = 9.0E+20
+RWYD  37 = 9.0E+20
+RWYD  38 = 9.0E+20
+RWYD  39 = 9.0E+20
+RWYD  40 = 9.0E+20
+Common OBSD
+OBSD   1 = 0.0
+OBSD   2 = 0.0
+OBSD   3 = 9.0E+20
+OBSD   4 = 9.0E+20
+OBSD   5 = 9.0E+20
+OBSD   6 = 9.0E+20
+OBSD   7 = 9.0E+20
+OBSD   8 = 9.0E+20
+OBSD   9 = 9.0E+20
+OBSD  10 = 9.0E+20
+OBSD  11 = 9.0E+20
+OBSD  12 = 9.0E+20
+OBSD  13 = 9.0E+20
+OBSD  14 = 9.0E+20
+OBSD  15 = 9.0E+20
+OBSD  16 = 9.0E+20
+OBSD  17 = 9.0E+20
+OBSD  18 = 9.0E+20
+OBSD  19 = 9.0E+20
+OBSD  20 = 9.0E+20
+OBSD  21 = 9.0E+20
+OBSD  22 = 9.0E+20
+OBSD  23 = 9.0E+20
+OBSD  24 = 9.0E+20
+OBSD  25 = 9.0E+20
+OBSD  26 = 9.0E+20
+OBSD  27 = 9.0E+20
+OBSD  28 = 9.0E+20
+OBSD  29 = 9.0E+20
+OBSD  30 = 9.0E+20
+OBSD  31 = 9.0E+20
+OBSD  32 = 9.0E+20
+OBSD  33 = 9.0E+20
+OBSD  34 = 9.0E+20
+OBSD  35 = 9.0E+20
+OBSD  36 = 9.0E+20
+OBSD  37 = 9.0E+20
+OBSD  38 = 9.0E+20
+OBSD  39 = 9.0E+20
+OBSD  40 = 9.0E+20
+OBSD  41 = 9.0E+20
+OBSD  42 = 9.0E+20
+OBSD  43 = 9.0E+20
+OBSD  44 = 9.0E+20
+OBSD  45 = 9.0E+20
+OBSD  46 = 9.0E+20
+OBSD  47 = 9.0E+20
+OBSD  48 = 9.0E+20
+OBSD  49 = 9.0E+20
+OBSD  50 = 9.0E+20
+OBSD  51 = 9.0E+20
+OBSD  52 = 9.0E+20
+OBSD  53 = 9.0E+20
+OBSD  54 = 9.0E+20
+OBSD  55 = 9.0E+20
+OBSD  56 = 9.0E+20
+OBSD  57 = 9.0E+20
+OBSD  58 = 9.0E+20
+OBSD  59 = 9.0E+20
+OBSD  60 = 9.0E+20
+OBSD  61 = 9.0E+20
+OBSD  62 = 9.0E+20
+OBSD  63 = 9.0E+20
+OBSD  64 = 9.0E+20
+OBSD  65 = 9.0E+20
+OBSD  66 = 9.0E+20
+OBSD  67 = 9.0E+20
+OBSD  68 = 9.0E+20
+OBSD  69 = 9.0E+20
+OBSD  70 = 9.0E+20
+OBSD  71 = 9.0E+20
+OBSD  72 = 9.0E+20
+OBSD  73 = 9.0E+20
+OBSD  74 = 9.0E+20
+OBSD  75 = 9.0E+20
+OBSD  76 = 9.0E+20
+OBSD  77 = 9.0E+20
+OBSD  78 = 9.0E+20
+OBSD  79 = 9.0E+20
+OBSD  80 = 9.0E+20
+OBSD  81 = 9.0E+20
+OBSD  82 = 9.0E+20
+OBSD  83 = 9.0E+20
+OBSD  84 = 9.0E+20
+OBSD  85 = 9.0E+20
+OBSD  86 = 9.0E+20
+OBSD  87 = 9.0E+20
+OBSD  88 = 9.0E+20
+OBSD  89 = 9.0E+20
+OBSD  90 = 9.0E+20
+OBSD  91 = 9.0E+20
+OBSD  92 = 9.0E+20
+Common FPTD
+FPTD   1 = 0.0
+FPTD   2 = 9.0E+20
+FPTD   3 = 9.0E+20
+FPTD   4 = 9.0E+20
+FPTD   5 = 9.0E+20
+FPTD   6 = 9.0E+20
+FPTD   7 = 9.0E+20
+FPTD   8 = 9.0E+20
+FPTD   9 = 9.0E+20
+FPTD  10 = 9.0E+20
+FPTD  11 = 9.0E+20
+FPTD  12 = 9.0E+20
+FPTD  13 = 9.0E+20
+FPTD  14 = 9.0E+20
+FPTD  15 = 9.0E+20
+FPTD  16 = 9.0E+20
+FPTD  17 = 9.0E+20
+FPTD  18 = 9.0E+20
+FPTD  19 = 9.0E+20
+FPTD  20 = 9.0E+20
+FPTD  21 = 9.0E+20
+FPTD  22 = 9.0E+20
+FPTD  23 = 9.0E+20
+FPTD  24 = 9.0E+20
+FPTD  25 = 9.0E+20
+FPTD  26 = 9.0E+20
+FPTD  27 = 9.0E+20
+FPTD  28 = 9.0E+20
+FPTD  29 = 9.0E+20
+FPTD  30 = 9.0E+20
+FPTD  31 = 9.0E+20
+FPTD  32 = 9.0E+20
+FPTD  33 = 9.0E+20
+FPTD  34 = 9.0E+20
+FPTD  35 = 9.0E+20
+FPTD  36 = 9.0E+20
+FPTD  37 = 9.0E+20
+FPTD  38 = 9.0E+20
+FPTD  39 = 9.0E+20
+FPTD  40 = 9.0E+20
+FPTD  41 = 9.0E+20
+Common UNIT
+UNIT   1 = 0.0
+UNIT   2 = 0.0
+UNIT   3 = 0.0
+UNIT   4 = 1.0
+UNIT   5 = 0.0
+UNIT   6 = 0.0
+UNIT   7 = 9.0E+20
+UNIT   8 = 0.0
+UNIT   9 = 2.0
+UNIT  10 = 9.0E+20
+UNIT  11 = 9.0E+20
+UNIT  12 = 9.0E+20
+UNIT  13 = 9.0E+20
+UNIT  14 = 9.0E+20
+UNIT  15 = 9.0E+20
+UNIT  16 = 9.0E+20
+UNIT  17 = 9.0E+20
+UNIT  18 = 9.0E+20
+UNIT  19 = 9.0E+20
+UNIT  20 = 9.0E+20
+UNIT  21 = 9.0E+20
+UNIT  22 = 9.0E+20
+UNIT  23 = 9.0E+20
+UNIT  24 = 9.0E+20
+UNIT  25 = 9.0E+20
+UNIT  26 = 9.0E+20
+UNIT  27 = 9.0E+20
+UNIT  28 = 9.0E+20
+UNIT  29 = 9.0E+20
+UNIT  30 = 9.0E+20
+UNIT  31 = 9.0E+20
+UNIT  32 = 9.0E+20
+UNIT  33 = 9.0E+20
+UNIT  34 = 9.0E+20
+UNIT  35 = 9.0E+20
+UNIT  36 = 9.0E+20
+UNIT  37 = 9.0E+20
+UNIT  38 = 9.0E+20
+UNIT  39 = 9.0E+20
+Character values
+CERTIF   = JAR
+MISCLA   = ../data/perfo/XB322A06.PRE
+CDLFIL   = ../data/cdl/CDLA330.cdl
+CPDFIL   = ../data/cdl/CP330A03_01.clsd
+FDCFGI   = CONF 2
+ACMDBI   = ../data/perfo/AB322A06
+APTIDT   = HECA
+RWYNBR   = 05R
+COMEN1   = 
+COMEN2   = 
+COMEN3   = 
+Common SPIA
+SPIA   1 = 1.0
+SPIA   2 = 0.0
+SPIA   3 = 1.0
+SPIA   4 = 0.0
+SPIA   5 = 1.0
+SPIA   6 = 0.0
+SPIA   7 = 1.0
+SPIA   8 = 0.0
+SPIA   9 = 1.0
+SPIA  10 = 0.0
+SPIA  11 = 1.0
+SPIA  12 = 0.0
+SPIA  13 = 9.0E+20
+SPIA  14 = 9.0E+20
+SPIA  15 = 9.0E+20
+SPIA  16 = 9.0E+20
+SPIA  17 = 9.0E+20
+SPIA  18 = 9.0E+20
+SPIA  19 = 9.0E+20
+SPIA  20 = 9.0E+20
+SPIA  21 = 1.0
+SPIA  22 = 0.0
+SPIA  23 = 1.0
+SPIA  24 = 0.0
+SPIA  25 = 1.0
+SPIA  26 = 0.0
+SPIA  27 = 9.0E+20
+SPIA  28 = 9.0E+20
+SPIA  29 = 1.0
+SPIA  30 = 0.0
+SPIA  31 = 1.0
+SPIA  32 = 0.0
+SPIA  33 = 9.0E+20
+SPIA  34 = 9.0E+20
+SPIA  35 = 9.0E+20
+SPIA  36 = 9.0E+20
+SPIA  37 = 9.0E+20
+SPIA  38 = 9.0E+20
+SPIA  39 = 9.0E+20
+SPIA  40 = 9.0E+20
+SPIA  41 = 9.0E+20
+SPIA  42 = 9.0E+20
+SPIA  43 = 9.0E+20
+SPIA  44 = 9.0E+20
+SPIA  45 = 9.0E+20
+SPIA  46 = 9.0E+20
+SPIA  47 = 9.0E+20
+SPIA  48 = 9.0E+20
+SPIA  49 = 9.0E+20
+SPIA  50 = 9.0E+20
+SPIA  51 = 9.0E+20
+SPIA  52 = 9.0E+20
+SPIA  53 = 1.0
+SPIA  54 = 0.0
+SPIA  55 = 1.0
+SPIA  56 = 0.0
+SPIA  57 = 1.0
+SPIA  58 = 0.0
+Common SPIB
+SPIB   1 = 1.0
+SPIB   2 = 9999.0
+SPIB   3 = 0.0
+Common SPIT
+SPIT   1 = 1.0
+END
+</LIST_T>
+			<LIST_T_OUT>  CONF 2                FDCFGI
+   0.  NO DERATE / TOGA ENGOPT
+   1                    NBTEMP
+        15.000      XMET( 1)
+    200000.000    CLIMIT( 1)
+      2014.000    CLIMIT( 2)
+  ************    CLIMIT( 3)
+         1.288    CLIMIT( 4)
+       156.810    CLIMIT( 5)
+       151.947    CLIMIT( 6)
+       141.169    CLIMIT( 7)
+         1.000    CLIMIT( 8)
+         1.000    CLIMIT( 9)
+      2337.130    CLIMIT(10)
+      2526.221    CLIMIT(11)
+      2289.693    CLIMIT(12)
+       141.169    CLIMIT(13)
+         1.000    CLIMIT(14)
+         1.000    CLIMIT(15)
+      2337.130    CLIMIT(16)
+      2526.221    CLIMIT(17)
+      2289.693    CLIMIT(18)
+       141.169    CLIMIT(19)
+         1.000    CLIMIT(20)
+         1.000    CLIMIT(21)
+      2337.130    CLIMIT(22)
+      2526.221    CLIMIT(23)
+      2289.693    CLIMIT(24)
+      2111.248    CLIMIT(25)
+      2271.355    CLIMIT(26)
+          .929    CLIMIT(35)
+          .929    CLIMIT(36)
+       120.728    RWYSEG( 4)
+  ************    RWYSEG( 6)
+       128.050    RWYSEG(12)
+       123.362    RWYSEG(13)
+    263434.938    FIRSEG( 1)
+      1391.350    FIRSEG( 2)
+       157.765    FIRSEG( 3)
+       194.283    FIRSEG( 4)
+    242201.828    SECSEG( 1)
+         4.617    SECSEG( 3)
+      2526.069    SECSEG( 4)
+     37498.156    SECSEG( 5)
+       298.701    ACCSEG( 1)
+       365.000    ACCSEG( 2)
+       410.305    ACCSEG( 3)
+      3728.464    ACCSEG( 6)
+      4712.647    ACCSEG( 7)
+      4744.107    ACCSEG( 8)
+     48450.738    ACCSEG( 9)
+     46366.211    ACCSEG(10)
+    250000.000    FINSEG( 1)
+         3.147    FINSEG( 2)
+         3.948    FINSEG( 3)
+   9999999.000    OBSLIM( 1)
+          .000    OBSLIM( 2)
+   9999999.000    OBSLIM( 3)
+          .000    OBSLIM( 4)
+        72.138    SPOUTA(26)
+        72.138    SPOUTA(27)
+        72.138    SPOUTA(28)
+       118.526    OISRES( 1)
+       116.318    OISRES( 2)
+       157.810    OISRES( 3)
+       151.960    OISRES( 4)
+  ************    OISRES( 5)
+  ************    AECLMB( 1)
+  ************    AECLMB( 2)
+  ************    AECLMB( 3)
+  ************    AECLMB( 4)
+  ************    AECLMB( 5)
+  ************    AECLMB( 6)
+  ************    AECLMB( 7)
+  ************    AECLMB( 8)
+  ************    AECLMB(17)
+  ************    AECLMB(18)
+  ************    AECLMB(19)
+  ************    AECLMB(20)
+  ************    AECLMB(21)
+  ************    AECLMB(30)
+  ************    AECLMB(31)
+  ************    AECLMB(32)
+  ************    AECLMB(33)
+  ************    AECLMB(34)
+  ************    AECLMB(43)
+  ************    AECLMB(44)
+  ************    AECLMB(45)
+  ************    AECLMB(46)
+  ************    AECLMB(47)
+  ************    AECLMB(56)
+  ************    AECLMB(57)
+  ************    AECLMB(58)
+  ************    AECLMB(59)
+  ************    AECLMB(60)
+  ************    AECLMB(69)
+  ************    AECLMB(70)
+  ************    AECLMB(71)
+  ************    AECLMB(72)
+  ************    AECLMB(73)
+  ************    AECLMB(82)
+  ************    AECLMB(83)
+  ************    AECLMB(84)
+  ************    AECLMB(85)
+  ************    AECLMB(86)
+  ************    AECLMB(95)
+  ************    AECLMB(96)
+  ************    AECLMB(97)
+  ************    AECLMB(98)
+  ************    AECLMB(99)
+  ************    AECLMB(108)
+  ************    AECLMB(109)
+  ************    AECLMB(110)
+  ************    AECLMB(111)
+  ************    AECLMB(112)
+  ************    AECLMB(121)
+  ************    AECLMB(122)
+  ************    AECLMB(123)
+  ************    AECLMB(124)
+  ************    AECLMB(125)
+  ************    AECLMB(134)
+  ************    AEFLPH( 1)
+  ************    AEFLPH( 2)
+  ************    AEFLPH( 3)
+  ************    AEFLPH( 4)
+  ************    AEFLPH( 5)
+  ************    AEFLPH( 6)
+  ************    AEFLPH( 7)
+  ************    AEFLPH( 8)
+  ************    AEFLPH( 9)
+  ************    AEFLPH(10)
+  ************    AEFLPH(11)
+  ************    AEFLPH(12)
+  ************    AEFLPH(13)
+  ************    AEFLPH(14)
+  A                     ERFLAG
+  Computation performed with CP330A03_01.clsd                                       ERRMSG( 1)
+                                                                                    ERRMSG( 2)
+                                                                                    ERRMSG( 3)
+                                                                                    ERRMSG( 4)
+                                                                                    ERRMSG( 5)
+                                                                                    ERRMSG( 6)
+                                                                                    ERRMSG( 7)
+                                                                                    ERRMSG( 8)
+                                                                                    ERRMSG( 9)
+                                                                                    ERRMSG(10)
+  OCTOPUS               MMIDNT
+  38.0.1                MMDATE
+  ../data/perfo/AB322A06                                        ACMDBO
+                                                                                    OUTMIS( 1)
+                                                                                    OUTMIS( 2)
+                                                                                    OUTMIS( 3)
+        15.000      XMET( 1)
+    242170.844    CLIMIT( 1)
+      2014.000    CLIMIT( 2)
+  ************    CLIMIT( 3)
+         1.288    CLIMIT( 4)
+       172.654    CLIMIT( 5)
+       169.882    CLIMIT( 6)
+       157.824    CLIMIT( 7)
+        12.000    CLIMIT( 8)
+         3.000    CLIMIT( 9)
+      3648.085    CLIMIT(10)
+      3977.499    CLIMIT(11)
+      3388.342    CLIMIT(12)
+       157.824    CLIMIT(13)
+        12.000    CLIMIT(14)
+         3.000    CLIMIT(15)
+      3648.085    CLIMIT(16)
+      3977.499    CLIMIT(17)
+      3388.342    CLIMIT(18)
+       157.824    CLIMIT(19)
+        12.000    CLIMIT(20)
+         3.000    CLIMIT(21)
+      3648.085    CLIMIT(22)
+      3977.499    CLIMIT(23)
+      3388.342    CLIMIT(24)
+      3101.658    CLIMIT(25)
+      3278.925    CLIMIT(26)
+          .929    CLIMIT(35)
+          .929    CLIMIT(36)
+       120.193    RWYSEG( 4)
+  ************    RWYSEG( 6)
+       128.050    RWYSEG(12)
+       123.362    RWYSEG(13)
+    263434.938    FIRSEG( 1)
+      1288.327    FIRSEG( 2)
+        59.160    FIRSEG( 3)
+        92.974    FIRSEG( 4)
+    242201.828    SECSEG( 1)
+         2.401    SECSEG( 3)
+      4707.429    SECSEG( 4)
+     30988.932    SECSEG( 5)
+       241.449    ACCSEG( 1)
+       365.000    ACCSEG( 2)
+       416.948    ACCSEG( 3)
+      1357.619    ACCSEG( 6)
+      2170.960    ACCSEG( 7)
+      2217.217    ACCSEG( 8)
+     51701.078    ACCSEG( 9)
+     45891.238    ACCSEG(10)
+    250000.000    FINSEG( 1)
+         1.904    FINSEG( 2)
+         2.705    FINSEG( 3)
+   9999999.000    OBSLIM( 1)
+          .000    OBSLIM( 2)
+   9999999.000    OBSLIM( 3)
+          .000    OBSLIM( 4)
+        99.895    SPOUTA(26)
+        99.895    SPOUTA(27)
+        99.895    SPOUTA(28)
+       118.526    OISRES( 1)
+       116.318    OISRES( 2)
+       173.654    OISRES( 3)
+       170.016    OISRES( 4)
+  ************    OISRES( 5)
+  ************    AECLMB( 1)
+  ************    AECLMB( 2)
+  ************    AECLMB( 3)
+  ************    AECLMB( 4)
+  ************    AECLMB( 5)
+  ************    AECLMB( 6)
+  ************    AECLMB( 7)
+  ************    AECLMB( 8)
+  ************    AECLMB(17)
+  ************    AECLMB(18)
+  ************    AECLMB(19)
+  ************    AECLMB(20)
+  ************    AECLMB(21)
+  ************    AECLMB(30)
+  ************    AECLMB(31)
+  ************    AECLMB(32)
+  ************    AECLMB(33)
+  ************    AECLMB(34)
+  ************    AECLMB(43)
+  ************    AECLMB(44)
+  ************    AECLMB(45)
+  ************    AECLMB(46)
+  ************    AECLMB(47)
+  ************    AECLMB(56)
+  ************    AECLMB(57)
+  ************    AECLMB(58)
+  ************    AECLMB(59)
+  ************    AECLMB(60)
+  ************    AECLMB(69)
+  ************    AECLMB(70)
+  ************    AECLMB(71)
+  ************    AECLMB(72)
+  ************    AECLMB(73)
+  ************    AECLMB(82)
+  ************    AECLMB(83)
+  ************    AECLMB(84)
+  ************    AECLMB(85)
+  ************    AECLMB(86)
+  ************    AECLMB(95)
+  ************    AECLMB(96)
+  ************    AECLMB(97)
+  ************    AECLMB(98)
+  ************    AECLMB(99)
+  ************    AECLMB(108)
+  ************    AECLMB(109)
+  ************    AECLMB(110)
+  ************    AECLMB(111)
+  ************    AECLMB(112)
+  ************    AECLMB(121)
+  ************    AECLMB(122)
+  ************    AECLMB(123)
+  ************    AECLMB(124)
+  ************    AECLMB(125)
+  ************    AECLMB(134)
+  ************    AEFLPH( 1)
+  ************    AEFLPH( 2)
+  ************    AEFLPH( 3)
+  ************    AEFLPH( 4)
+  ************    AEFLPH( 5)
+  ************    AEFLPH( 6)
+  ************    AEFLPH( 7)
+  ************    AEFLPH( 8)
+  ************    AEFLPH( 9)
+  ************    AEFLPH(10)
+  ************    AEFLPH(11)
+  ************    AEFLPH(12)
+  ************    AEFLPH(13)
+  ************    AEFLPH(14)
+  A                     ERFLAG
+  Computation performed with CP330A03_01.clsd                                       ERRMSG( 1)
+                                                                                    ERRMSG( 2)
+                                                                                    ERRMSG( 3)
+                                                                                    ERRMSG( 4)
+                                                                                    ERRMSG( 5)
+                                                                                    ERRMSG( 6)
+                                                                                    ERRMSG( 7)
+                                                                                    ERRMSG( 8)
+                                                                                    ERRMSG( 9)
+                                                                                    ERRMSG(10)
+  OCTOPUS               MMIDNT
+  38.0.1                MMDATE
+  ../data/perfo/AB322A06                                        ACMDBO
+                                                                                    OUTMIS( 1)
+                                                                                    OUTMIS( 2)
+                                                                                    OUTMIS( 3)
+</LIST_T_OUT>
+			<CheckAFM_IN>01
+1
+COMMON INTVAL
+INTVAL   1 = 1
+INTVAL   2 = 2
+INTVAL   3 = 3
+INTVAL   4 = 1
+INTVAL   5 = 1
+INTVAL   6 = 1
+INTVAL   7 = 1
+INTVAL   8 = 2
+INTVAL   9 = 1
+INTVAL  10 = 1
+INTVAL  11 = 2
+INTVAL  12 = 1
+INTVAL  13 = 2
+INTVAL  14 = 1
+INTVAL  15 = 1
+INTVAL  16 = 1
+INTVAL  17 = 1
+INTVAL  18 = 1
+INTVAL  19 = 1
+INTVAL  20 = 1
+INTVAL  21 = 1
+INTVAL  22 = 1
+INTVAL  23 = 1
+INTVAL  24 = 1
+INTVAL  26 = 1
+INTVAL  27 = 1
+INTVAL  28 = 1
+INTVAL  29 = 2
+INTVAL  33 = 2
+INTVAL  34 = 1
+INTVAL  35 = 0
+INTVAL  36 = 1
+INTVAL  37 = 1
+INTVAL  38 = 3
+INTVAL  39 = 3
+INTVAL  40 = 1
+INTVAL  41 = 0
+INTVAL  42 = 0
+INTVAL  43 = 1
+INTVAL  44 = 1
+INTVAL  54 = 1
+INTVAL  59 = 1
+INTVAL  60 = 1
+INTVAL  68 = 1
+INTVAL  79 = 1
+INTVAL  80 = 1
+INTVAL  81 = 1
+COMMON REAVAL
+REAVAL   1 = 1013.0
+REAVAL   2 = 15.0
+REAVAL   3 = 0.0
+REAVAL   4 = 0.0
+REAVAL   5 = 0.14
+REAVAL   6 = 60.0
+REAVAL   7 = 200000.0
+REAVAL   8 = 141.169
+REAVAL   9 = 156.81
+REAVAL  13 = 448.0
+REAVAL  14 = 4000.0
+REAVAL  15 = 4000.0
+REAVAL  16 = 4000.0
+REAVAL  17 = 21.2
+REAVAL  18 = 46.5
+REAVAL  19 = 1.0
+REAVAL  20 = 0.0
+COMMON STRING
+STRING   1 = ../data/perfo/AB322A06
+STRING  19 = ../data/cdl/CDLA330.cdl
+STRING  30 = ../data/cdl/CP330A03_01.clsd
+COMMON OBSTA
+COMMON CDLCOD
+END
+</CheckAFM_IN>
+			<CheckAFM_OUT>1
+</CheckAFM_OUT>
+			<CheckTOD_IN>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;
+&lt;CTODInputData&gt;
+  &lt;Version&gt;1&lt;/Version&gt;
+  &lt;Calculation Title=&quot;Calculation 1&quot;&gt;
+    &lt;Index&gt;1&lt;/Index&gt;
+    &lt;CDLParameters&gt;
+      &lt;CDLParameter Name=&quot;CDL item0&quot;&gt;
+        &lt;Description&gt;Number of Negligible Items&lt;/Description&gt;
+        &lt;Type&gt;real&lt;/Type&gt;
+        &lt;Value&gt;0.0&lt;/Value&gt;
+      &lt;/CDLParameter&gt;
+      &lt;CDLParameter Name=&quot;CDL item1&quot;&gt;
+        &lt;Description&gt;1&lt;/Description&gt;
+        &lt;Type&gt;integer&lt;/Type&gt;
+        &lt;Value&gt;0&lt;/Value&gt;
+      &lt;/CDLParameter&gt;
+      &lt;CDLParameter Name=&quot;CDL item2&quot;&gt;
+        &lt;Description&gt;2&lt;/Description&gt;
+        &lt;Type&gt;integer&lt;/Type&gt;
+        &lt;Value&gt;0&lt;/Value&gt;
+      &lt;/CDLParameter&gt;
+      &lt;CDLParameter Name=&quot;CDL item3&quot;&gt;
+        &lt;Description&gt;3&lt;/Description&gt;
+        &lt;Type&gt;integer&lt;/Type&gt;
+        &lt;Value&gt;0&lt;/Value&gt;
+      &lt;/CDLParameter&gt;
+      &lt;CDLParameter Name=&quot;CDL item4&quot;&gt;
+        &lt;Description&gt;4&lt;/Description&gt;
+        &lt;Type&gt;integer&lt;/Type&gt;
+        &lt;Value&gt;0&lt;/Value&gt;
+      &lt;/CDLParameter&gt;
+      &lt;CDLParameter Name=&quot;CDL item5&quot;&gt;
+        &lt;Description&gt;5&lt;/Description&gt;
+        &lt;Type&gt;integer&lt;/Type&gt;
+        &lt;Value&gt;0&lt;/Value&gt;
+      &lt;/CDLParameter&gt;
+      &lt;CDLParameter Name=&quot;CDL item6&quot;&gt;
+        &lt;Description&gt;6&lt;/Description&gt;
+        &lt;Type&gt;integer&lt;/Type&gt;
+        &lt;Value&gt;0&lt;/Value&gt;
+      &lt;/CDLParameter&gt;
+      &lt;CDLParameter Name=&quot;CDL item7&quot;&gt;
+        &lt;Description&gt;7&lt;/Description&gt;
+        &lt;Type&gt;integer&lt;/Type&gt;
+        &lt;Value&gt;0&lt;/Value&gt;
+      &lt;/CDLParameter&gt;
+      &lt;CDLParameter Name=&quot;CDL item8&quot;&gt;
+        &lt;Description&gt;8&lt;/Description&gt;
+        &lt;Type&gt;integer&lt;/Type&gt;
+        &lt;Value&gt;0&lt;/Value&gt;
+      &lt;/CDLParameter&gt;
+      &lt;CDLParameter Name=&quot;CDL item9&quot;&gt;
+        &lt;Description&gt;9&lt;/Description&gt;
+        &lt;Type&gt;integer&lt;/Type&gt;
+        &lt;Value&gt;0&lt;/Value&gt;
+      &lt;/CDLParameter&gt;
+      &lt;CDLParameter Name=&quot;CDL item10&quot;&gt;
+        &lt;Description&gt;10&lt;/Description&gt;
+        &lt;Type&gt;integer&lt;/Type&gt;
+        &lt;Value&gt;0&lt;/Value&gt;
+      &lt;/CDLParameter&gt;
+      &lt;CDLParameter Name=&quot;CDL item11&quot;&gt;
+        &lt;Description&gt;11&lt;/Description&gt;
+        &lt;Type&gt;integer&lt;/Type&gt;
+        &lt;Value&gt;0&lt;/Value&gt;
+      &lt;/CDLParameter&gt;
+      &lt;CDLParameter Name=&quot;CDL item12&quot;&gt;
+        &lt;Description&gt;12&lt;/Description&gt;
+        &lt;Type&gt;integer&lt;/Type&gt;
+        &lt;Value&gt;0&lt;/Value&gt;
+      &lt;/CDLParameter&gt;
+      &lt;CDLParameter Name=&quot;CDL item13&quot;&gt;
+        &lt;Description&gt;13&lt;/Description&gt;
+        &lt;Type&gt;integer&lt;/Type&gt;
+        &lt;Value&gt;0&lt;/Value&gt;
+      &lt;/CDLParameter&gt;
+      &lt;CDLParameter Name=&quot;CDL item14&quot;&gt;
+        &lt;Description&gt;14&lt;/Description&gt;
+        &lt;Type&gt;integer&lt;/Type&gt;
+        &lt;Value&gt;0&lt;/Value&gt;
+      &lt;/CDLParameter&gt;
+      &lt;CDLParameter Name=&quot;CDL item15&quot;&gt;
+        &lt;Description&gt;15&lt;/Description&gt;
+        &lt;Type&gt;integer&lt;/Type&gt;
+        &lt;Value&gt;0&lt;/Value&gt;
+      &lt;/CDLParameter&gt;
+      &lt;CDLParameter Name=&quot;CDL item16&quot;&gt;
+        &lt;Description&gt;16&lt;/Description&gt;
+        &lt;Type&gt;integer&lt;/Type&gt;
+        &lt;Value&gt;0&lt;/Value&gt;
+      &lt;/CDLParameter&gt;
+      &lt;CDLParameter Name=&quot;CDL item17&quot;&gt;
+        &lt;Description&gt;17&lt;/Description&gt;
+        &lt;Type&gt;integer&lt;/Type&gt;
+        &lt;Value&gt;0&lt;/Value&gt;
+      &lt;/CDLParameter&gt;
+      &lt;CDLParameter Name=&quot;CDL item18&quot;&gt;
+        &lt;Description&gt;18&lt;/Description&gt;
+        &lt;Type&gt;integer&lt;/Type&gt;
+        &lt;Value&gt;0&lt;/Value&gt;
+      &lt;/CDLParameter&gt;
+      &lt;CDLParameter Name=&quot;CDL item19&quot;&gt;
+        &lt;Description&gt;19&lt;/Description&gt;
+        &lt;Type&gt;integer&lt;/Type&gt;
+        &lt;Value&gt;0&lt;/Value&gt;
+      &lt;/CDLParameter&gt;
+      &lt;CDLParameter Name=&quot;CDL item20&quot;&gt;
+        &lt;Description&gt;20&lt;/Description&gt;
+        &lt;Type&gt;integer&lt;/Type&gt;
+        &lt;Value&gt;0&lt;/Value&gt;
+      &lt;/CDLParameter&gt;
+      &lt;CDLParameter Name=&quot;CDL item21&quot;&gt;
+        &lt;Description&gt;21&lt;/Description&gt;
+        &lt;Type&gt;integer&lt;/Type&gt;
+        &lt;Value&gt;0&lt;/Value&gt;
+      &lt;/CDLParameter&gt;
+      &lt;CDLParameter Name=&quot;CDL item22&quot;&gt;
+        &lt;Description&gt;22&lt;/Description&gt;
+        &lt;Type&gt;integer&lt;/Type&gt;
+        &lt;Value&gt;0&lt;/Value&gt;
+      &lt;/CDLParameter&gt;
+      &lt;CDLParameter Name=&quot;CDL item23&quot;&gt;
+        &lt;Description&gt;23&lt;/Description&gt;
+        &lt;Type&gt;integer&lt;/Type&gt;
+        &lt;Value&gt;0&lt;/Value&gt;
+      &lt;/CDLParameter&gt;
+      &lt;CDLParameter Name=&quot;CDL item24&quot;&gt;
+        &lt;Description&gt;24&lt;/Description&gt;
+        &lt;Type&gt;integer&lt;/Type&gt;
+        &lt;Value&gt;0&lt;/Value&gt;
+      &lt;/CDLParameter&gt;
+    &lt;/CDLParameters&gt;
+    &lt;GeneralParameters&gt;
+      &lt;ParameterACTYPE&gt;
+        &lt;Description&gt;Aircraft type&lt;/Description&gt;
+        &lt;Type&gt;string&lt;/Type&gt;
+        &lt;Value&gt;AB322A06&lt;/Value&gt;
+      &lt;/ParameterACTYPE&gt;
+      &lt;ParameterCDL&gt;
+        &lt;Description&gt;CDL file localisation&lt;/Description&gt;
+        &lt;Type&gt;string&lt;/Type&gt;
+        &lt;Value&gt;../data/cdl/CDLA330.cdl&lt;/Value&gt;
+      &lt;/ParameterCDL&gt;
+      &lt;ParameterTOW&gt;
+        &lt;Description&gt;Take Off Weight [kg]&lt;/Description&gt;
+        &lt;Type&gt;real&lt;/Type&gt;
+        &lt;Value&gt;200000.0&lt;/Value&gt;
+      &lt;/ParameterTOW&gt;
+      &lt;ParameterCGCODE&gt;
+        &lt;Description&gt;Center of gravity mode&lt;/Description&gt;
+        &lt;Type&gt;integer&lt;/Type&gt;
+        &lt;Value&gt;1&lt;/Value&gt;
+      &lt;/ParameterCGCODE&gt;
+      &lt;ParameterCONF&gt;
+        &lt;Description&gt;Aerodynamic configuration&lt;/Description&gt;
+        &lt;Type&gt;integer&lt;/Type&gt;
+        &lt;Value&gt;2&lt;/Value&gt;
+      &lt;/ParameterCONF&gt;
+      &lt;ParameterEngineOption&gt;
+        &lt;Description&gt;Engine Thrust Option&lt;/Description&gt;
+        &lt;Type&gt;integer&lt;/Type&gt;
+        &lt;Value&gt;1&lt;/Value&gt;
+      &lt;/ParameterEngineOption&gt;
+      &lt;ParameterAirCond&gt;
+        &lt;Description&gt;Air conditionning&lt;/Description&gt;
+        &lt;Type&gt;integer&lt;/Type&gt;
+        &lt;Value&gt;2&lt;/Value&gt;
+      &lt;/ParameterAirCond&gt;
+      &lt;ParameterAntiIcing&gt;
+        &lt;Description&gt;Anti-Icing Option&lt;/Description&gt;
+        &lt;Type&gt;integer&lt;/Type&gt;
+        &lt;Value&gt;1&lt;/Value&gt;
+      &lt;/ParameterAntiIcing&gt;
+      &lt;ParameterTemperature&gt;
+        &lt;Description&gt;Temperature of the calculation [OAT or FLEX] Deg C&lt;/Description&gt;
+        &lt;Type&gt;real&lt;/Type&gt;
+        &lt;Value&gt;15.0&lt;/Value&gt;
+      &lt;/ParameterTemperature&gt;
+      &lt;ParameterXWind&gt;
+        &lt;Description&gt;Wind Projection speed&lt;/Description&gt;
+        &lt;Type&gt;real&lt;/Type&gt;
+        &lt;Value&gt;0.0&lt;/Value&gt;
+      &lt;/ParameterXWind&gt;
+      &lt;ParameterYWind&gt;
+        &lt;Description&gt;Crosswind&lt;/Description&gt;
+        &lt;Type&gt;real&lt;/Type&gt;
+        &lt;Value&gt;0.0&lt;/Value&gt;
+      &lt;/ParameterYWind&gt;
+      &lt;ParameterRunwayState&gt;
+        &lt;Description&gt;Runway Conditions&lt;/Description&gt;
+        &lt;Type&gt;integer&lt;/Type&gt;
+        &lt;Value&gt;1&lt;/Value&gt;
+      &lt;/ParameterRunwayState&gt;
+      &lt;ParameterZp&gt;
+        &lt;Description&gt;Airport Pressure Altitude&lt;/Description&gt;
+        &lt;Type&gt;real&lt;/Type&gt;
+        &lt;Value&gt;454.828&lt;/Value&gt;
+      &lt;/ParameterZp&gt;
+      &lt;ParameterRunwaySlope&gt;
+        &lt;Description&gt;Runway slope [%]&lt;/Description&gt;
+        &lt;Type&gt;real&lt;/Type&gt;
+        &lt;Value&gt;0.14&lt;/Value&gt;
+      &lt;/ParameterRunwaySlope&gt;
+      &lt;ParameterTODA&gt;
+        &lt;Description&gt;TODA [m]&lt;/Description&gt;
+        &lt;Type&gt;real&lt;/Type&gt;
+        &lt;Value&gt;3978.8&lt;/Value&gt;
+      &lt;/ParameterTODA&gt;
+      &lt;ParameterTORA&gt;
+        &lt;Description&gt;TORA [m]&lt;/Description&gt;
+        &lt;Type&gt;real&lt;/Type&gt;
+        &lt;Value&gt;3978.8&lt;/Value&gt;
+      &lt;/ParameterTORA&gt;
+      &lt;ParameterV2&gt;
+        &lt;Description&gt;Take-Off climb speed CAS [kt]&lt;/Description&gt;
+        &lt;Type&gt;real&lt;/Type&gt;
+        &lt;Value&gt;157.81&lt;/Value&gt;
+      &lt;/ParameterV2&gt;
+      &lt;ParameterVR&gt;
+        &lt;Description&gt;Rotation Speed CAS [kt]&lt;/Description&gt;
+        &lt;Type&gt;real&lt;/Type&gt;
+        &lt;Value&gt;151.96&lt;/Value&gt;
+      &lt;/ParameterVR&gt;
+    &lt;/GeneralParameters&gt;
+    &lt;MMELParameters&gt;
+      &lt;MMELParameter Name=&quot;MMEL item1&quot;&gt;
+        &lt;Description&gt;Engine Anti-Ice valve blocked opened&lt;/Description&gt;
+        &lt;Type&gt;integer&lt;/Type&gt;
+        &lt;Value&gt;1&lt;/Value&gt;
+      &lt;/MMELParameter&gt;
+      &lt;MMELParameter Name=&quot;MMEL item2&quot;&gt;
+        &lt;Description&gt;Ferry Flight&lt;/Description&gt;
+        &lt;Type&gt;integer&lt;/Type&gt;
+        &lt;Value&gt;1&lt;/Value&gt;
+      &lt;/MMELParameter&gt;
+      &lt;MMELParameter Name=&quot;MMEL item3&quot;&gt;
+        &lt;Description&gt;Landing gear extended&lt;/Description&gt;
+        &lt;Type&gt;integer&lt;/Type&gt;
+        &lt;Value&gt;1&lt;/Value&gt;
+      &lt;/MMELParameter&gt;
+      &lt;MMELParameter Name=&quot;MMEL item4&quot;&gt;
+        &lt;Description&gt;Dispatch in rated N1 mode&lt;/Description&gt;
+        &lt;Type&gt;integer&lt;/Type&gt;
+        &lt;Value&gt;1&lt;/Value&gt;
+      &lt;/MMELParameter&gt;
+    &lt;/MMELParameters&gt;
+    &lt;OptionsParameters&gt;
+      &lt;OptionsParameter Name=&quot;Option item1&quot;&gt;
+        &lt;Description&gt;LIP option&lt;/Description&gt;
+        &lt;Type&gt;integer&lt;/Type&gt;
+        &lt;Value&gt;1&lt;/Value&gt;
+      &lt;/OptionsParameter&gt;
+    &lt;/OptionsParameters&gt;
+  &lt;/Calculation&gt;
+&lt;/CTODInputData&gt;
+</CheckTOD_IN>
+			<CheckTOD_OUT>&lt;?xml version=&quot;1.0&quot; encoding=&quot;ISO-8859-1&quot;?&gt;
+&lt;CTODResult&gt;&lt;Version&gt;1&lt;/Version&gt;&lt;Calculation Title=&quot;Calcul 1&quot;&gt;&lt;Index&gt;1&lt;/Index&gt;&lt;Parameter Name=&quot;Check answer&quot;&gt;&lt;Description&gt;Check answer&lt;/Description&gt;&lt;Type&gt;string&lt;/Type&gt;&lt;Value&gt;Yes&lt;/Value&gt;&lt;/Parameter&gt;&lt;/Calculation&gt;&lt;/CTODResult&gt;
+</CheckTOD_OUT>
+		</iteration>
+	</computeFiles>
+</report>
